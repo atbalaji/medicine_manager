@@ -30,7 +30,7 @@ class Api::PatientsController < ApplicationController
 
   def destroy
     @patient.destroy
-    head :no_content #check the reasoon
+    head :no_content
   end
 
   private
